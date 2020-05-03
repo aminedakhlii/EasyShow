@@ -1,3 +1,0 @@
-/home/amine/databaseHandelingPrograms/build-class_update-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/amine/databaseHandelingPrograms/build-class_update-Desktop-Default/CMakeFiles/classes_handle.dir
-/home/amine/databaseHandelingPrograms/build-class_update-Desktop-Default/CMakeFiles/edit_cache.dir

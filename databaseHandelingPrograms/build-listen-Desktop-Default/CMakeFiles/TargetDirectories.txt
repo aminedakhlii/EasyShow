@@ -1,3 +1,0 @@
-/home/amine/databaseHandelingPrograms/build-listen-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/amine/databaseHandelingPrograms/build-listen-Desktop-Default/CMakeFiles/listen.dir
-/home/amine/databaseHandelingPrograms/build-listen-Desktop-Default/CMakeFiles/edit_cache.dir

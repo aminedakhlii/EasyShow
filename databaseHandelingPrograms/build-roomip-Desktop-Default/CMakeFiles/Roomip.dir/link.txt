@@ -1,1 +1,0 @@
-/usr/bin/gcc    CMakeFiles/Roomip.dir/main.c.o  -o Roomip /usr/lib/x86_64-linux-gnu/libsqlite3.so 

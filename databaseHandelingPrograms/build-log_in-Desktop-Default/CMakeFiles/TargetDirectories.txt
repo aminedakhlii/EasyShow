@@ -1,3 +1,0 @@
-/home/amine/databaseHandelingPrograms/build-log_in-Desktop-Default/CMakeFiles/rebuild_cache.dir
-/home/amine/databaseHandelingPrograms/build-log_in-Desktop-Default/CMakeFiles/Log_in.dir
-/home/amine/databaseHandelingPrograms/build-log_in-Desktop-Default/CMakeFiles/edit_cache.dir
