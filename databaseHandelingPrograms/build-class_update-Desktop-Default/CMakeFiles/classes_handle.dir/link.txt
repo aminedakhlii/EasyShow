@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/classes_handle.dir/main.c.o  -o classes_handle /usr/lib/x86_64-linux-gnu/libsqlite3.so 

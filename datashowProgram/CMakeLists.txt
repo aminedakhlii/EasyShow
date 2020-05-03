@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 2.8)
+
+project(datashowProgram)
+
+file(GLOB SOURCES "src/*.c")
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+target_include_directories(${PROJECT_NAME} PRIVATE include )
+
+#add libcurl
+find_package( CURL REQUIRED)
+include_directories( ${CURL_INCLUDE_DIRS} )
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${CURL_LIBRARIES} )
+
+#Add gtk3 lib
+FIND_PACKAGE(PkgConfig REQUIRED)
+PKG_CHECK_MODULES(GTK3 REQUIRED gtk+-3.0)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${GTK3_LIBRARIES})
+INCLUDE_DIRECTORIES(${GTK3_INCLUDE_DIRS})
+LINK_DIRECTORIES(${GTK3_LIBRARY_DIRS})
+ADD_DEFINITIONS(${GTK3_CFLAGS_OTHER})
+
+
+find_package(Threads REQUIRED)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} Threads::Threads)

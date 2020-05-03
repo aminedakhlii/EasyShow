@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/Log_in.dir/main.c.o  -o Log_in /usr/lib/x86_64-linux-gnu/libsqlite3.so 
